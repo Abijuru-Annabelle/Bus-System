@@ -6,7 +6,7 @@ public class Booking {
     private Ticket ticket;
     private Date bookingDate;
     private String status;
-// ttttt
+    
     public Booking(String bookingId, Passenger passenger, Ticket ticket, String status) {
         this.bookingId = bookingId;
         this.passenger = passenger;
